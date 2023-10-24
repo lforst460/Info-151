@@ -34,6 +34,7 @@ html {
 
 #classic{
   background-color: var(--darkviolet);
+  color: var(--white);
 }
 
 
