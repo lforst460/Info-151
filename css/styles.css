@@ -40,6 +40,7 @@ html {
 
 .plans{
   display: inline;
+  margin: 5px;
 }
 
 .nopadding{
