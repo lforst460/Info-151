@@ -35,7 +35,7 @@ html {
 ul{
   li{
     button{
-      color: var(--aliceblue)
+      color: var(--aliceblue);
     }
   }
 }
