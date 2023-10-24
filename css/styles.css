@@ -46,6 +46,9 @@ body{
   border: solid;
 }
 
+#heropic{
+  width: 100%;
+}
 
 #imagediv{
   display:inline-block;
