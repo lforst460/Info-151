@@ -52,6 +52,8 @@ body{
 
 #imagediv{
   display:inline-block;
+  width: 40%;
+  padding: 30px;
 }
 
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
