@@ -18,6 +18,7 @@ html {
   --darkviolet: #9400D3;
   --aliceblue: #F0F8FF;
   --dodgerblue: #1E90FF;
+  --midnightblue: #191970;
 }
 
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
@@ -37,7 +38,17 @@ html {
   color: var(--white);
 }
 
+#startupdiv{
+  padding: 100px 100px
+}
 
+#classicdiv{
+  padding: 100px 100px
+}
+
+#premiumdiv{
+  padding: 100px 100px
+}
 
 button{
   color: var(--aliceblue);
