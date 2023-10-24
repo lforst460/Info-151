@@ -57,11 +57,6 @@ h1, h2, li{
   color: var(--white);
 }
 
-.center{
-  margin: auto;
-  width: 80%;
-}
-
 #startupdiv{
   padding: 50px 30px;
 }
