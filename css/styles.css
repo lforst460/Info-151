@@ -30,6 +30,10 @@ body{
   display: inline-block
 }
 
+#navtitle{
+  display: inline;
+}
+
 #navlist{
   list-style-type: none;
 }
