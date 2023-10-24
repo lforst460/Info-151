@@ -24,9 +24,13 @@ body{
   color: var(--aliceblue)
 }
 
+#desc{
+  padding: 30px;
+  width: 40%;
+}
 
 #navlist{
-  display: inline-block;
+  display: inline;
   list-style-type: none;
 }
 
