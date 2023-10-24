@@ -19,12 +19,17 @@ html {
   --midnightblue: #191970;
 }
 
+#socials{
+  width: 150px;
+}
+
 .section{
   display: inline-block;
 }
 
 .bluetext{
-  color: var(--dodgerblue)
+  background-color: var(--dodgerblue);
+  color: var(--aliceblue);
 }
 
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
