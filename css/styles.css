@@ -37,6 +37,10 @@ ul{
   display: inline-block;
 }
 
+li{
+  margin: 0px;
+}
+
 .purplebackground{
   background-color: var(--darkviolet);
   color: var(--white);
