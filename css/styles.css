@@ -34,6 +34,14 @@ html {
 
 ul{
   li{
+    h1{
+      color:#9400D3;
+    }
+  }
+}
+
+ul{
+  li{
     button{
       color: var(--aliceblue);
       background-color: var(--dodgerblue);
