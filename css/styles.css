@@ -36,10 +36,14 @@ body{
 
 #navlist li{
   display:inline;
+  padding: 5px;
+  margin: 5px;
+  border: solid;
 }
 
 img{
-  width: 40%;
+  width: 30%;
+  display: inline-block;
 }
 
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
