@@ -42,7 +42,7 @@ h1, h2, li{
   padding: 0px;
 }
 
-nopadding{
+.nopadding{
   margin: 0px;
   padding: 0px;
 }
