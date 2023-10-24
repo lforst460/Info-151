@@ -32,6 +32,7 @@ body{
 
 #navtitle{
   display: inline;
+  margin: 10px;
 }
 
 #navlist{
@@ -47,7 +48,10 @@ body{
 
 #heropic{
   width: 30%;
-  display: inline-block;
+}
+
+#imagediv{
+  display:inline-block;
 }
 
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
