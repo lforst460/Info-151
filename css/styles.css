@@ -33,6 +33,10 @@ html {
   -webkit-text-size-adjust: 100%; /* 2 */
 }
 
+ul{
+  display: inline-block;
+}
+
 #classic{
   background-color: var(--darkviolet);
   color: var(--white);
