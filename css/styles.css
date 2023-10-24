@@ -19,6 +19,10 @@ html {
   --midnightblue: #191970;
 }
 
+body{
+  background-color: var(--midnightblue);
+}
+
 #socials{
   width: 150px;
   padding: 50px;
