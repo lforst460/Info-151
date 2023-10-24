@@ -21,10 +21,12 @@ html {
 
 #socials{
   width: 150px;
+  padding: 50px;
 }
 
 .section{
   display: inline-block;
+  padding: 30px;
 }
 
 .bluetext{
