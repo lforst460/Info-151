@@ -6,6 +6,8 @@ html {
   font-size: 100%;
 }
 
+
+
 /* ---------------- Media Queries ---------------- */
 /* =============
     Variables
@@ -13,6 +15,9 @@ html {
 :root {
   --black: #000000;
   --white: #ffffff;
+  --darkviolet: #9400D3;
+  --aliceblue: #F0F8FF;
+  --dodgerblue: #1E90FF;
 }
 
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
@@ -25,6 +30,14 @@ html {
 html {
   line-height: 1.15; /* 1 */
   -webkit-text-size-adjust: 100%; /* 2 */
+}
+
+ul{
+  li{
+    button{
+      color: var(--aliceblue)
+    }
+  }
 }
 
 /* Sections
