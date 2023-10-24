@@ -33,8 +33,9 @@ html {
   -webkit-text-size-adjust: 100%; /* 2 */
 }
 
-ul{
+.product{
   display: inline-block;
+  border: solid;
 }
 
 h1, h2, li{
