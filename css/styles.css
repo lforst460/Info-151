@@ -32,10 +32,10 @@ html {
   -webkit-text-size-adjust: 100%; /* 2 */
 }
 
-
-h1{
-  color:#9400D3;
+#classic{
+  background-color: var(--darkviolet);
 }
+
 
 
 button{
