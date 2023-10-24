@@ -42,6 +42,11 @@ h1, h2, li{
   padding: 0px;
 }
 
+nopadding{
+  margin: 0px;
+  padding: 0px;
+}
+
 .purplebackground{
   background-color: var(--darkviolet);
   color: var(--white);
