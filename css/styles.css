@@ -32,10 +32,12 @@ html {
   -webkit-text-size-adjust: 100%; /* 2 */
 }
 
-ul{
-  li{
-    h1{
-      color:#9400D3;
+div{
+  ul{
+    li{
+      h1{
+        color:#9400D3;
+      }
     }
   }
 }
