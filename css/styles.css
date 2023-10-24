@@ -38,6 +38,10 @@ html {
   border: solid;
 }
 
+.plans{
+  display: inline-block;
+}
+
 h1, h2, li{
   margin: 0px;
   padding: 0px;
