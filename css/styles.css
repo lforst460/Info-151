@@ -20,7 +20,8 @@ html {
 }
 
 body{
-  background-color: var(--midnightblue);
+  background-color: var(--black);
+  color: var(--aliceblue)
 }
 
 #socials{
