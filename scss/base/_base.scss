@@ -59,6 +59,13 @@ li{
     padding: 5px;
   }
   
+.links:link, .links:visited{
+  transition: .25s;
+}
+
+.links:hover, .links:active{
+  color: var(--dodgerblue)
+}
   
 
 .titleblue{

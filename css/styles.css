@@ -388,6 +388,15 @@ li {
   padding: 5px;
 }
 
+.links:link, .links:visited {
+  -webkit-transition: 0.25s;
+  transition: 0.25s;
+}
+
+.links:hover, .links:active {
+  color: var(--dodgerblue);
+}
+
 .titleblue {
   font-weight: 700;
   font-size: 1.875rem;
