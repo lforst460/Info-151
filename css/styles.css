@@ -352,6 +352,10 @@ body {
   padding: 50px;
 }
 
+.icons {
+  display: inline-block;
+}
+
 .section {
   display: inline-block;
   padding: 30px;
