@@ -6,6 +6,8 @@ html {
   font-size: 100%;
 }
 
+
+
 /* ---------------- Media Queries ---------------- */
 /* =============
     Variables
@@ -21,7 +23,8 @@ html {
 
 body{
   background-color: var(--black);
-  color: var(--aliceblue)
+  color: var(--aliceblue);
+  font-family: 'Open Sans', sans-serif;
 }
 
 #socials{
