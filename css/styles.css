@@ -387,7 +387,6 @@ ul {
 li {
   padding: 5px;
   font-size: 1.125rem;
-  text-decoration: none;
 }
 
 .links:link, .links:visited {
@@ -396,10 +395,12 @@ li {
   color: var(--aliceblue);
   font-family: "Open Sans", sans-serif;
   font-size: 1.125rem;
+  text-decoration: none;
 }
 
 .links:hover, .links:active {
   color: var(--dodgerblue);
+  text-decoration: none;
 }
 
 .titleblue {
