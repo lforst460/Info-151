@@ -15,11 +15,12 @@ li{
 }
 
 #boldest{
-  font-weight: 800;
+  font-weight: 1200;
+  font-size: rem-calc(30);
 }
 
 h2{
-  font-weight: 700;
+  font-weight: 800;
 }
 
 
