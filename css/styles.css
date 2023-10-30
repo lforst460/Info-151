@@ -16,8 +16,6 @@ li{
 
 
 
-
-
 /* ---------------- Media Queries ---------------- */
 /* =============
     Variables
@@ -49,7 +47,7 @@ body{
 
 .titleblue{
   color: var(--dodgerblue);
-  font-weight: 900;
+  font-size:500px;
 }
 
 .bluetext{
