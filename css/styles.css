@@ -14,9 +14,6 @@ li{
   padding: 5px;
 }
 
-#company{
-  font-weight: 3200;
-}
 
 h2{
   font-weight: 800;
@@ -55,6 +52,7 @@ body{
 
 .titleblue{
   color: var(--dodgerblue);
+  font-weight: 3200;
 }
 
 .bluetext{
