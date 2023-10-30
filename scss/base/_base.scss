@@ -61,6 +61,9 @@ li{
   
 .links:link, .links:visited{
   transition: .25s;
+  color: var(--aliceblue);
+  font-family: 'Open Sans', sans-serif;
+  font-size: rem-calc(18);
 }
 
 .links:hover, .links:active{

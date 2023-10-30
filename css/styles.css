@@ -391,6 +391,9 @@ li {
 .links:link, .links:visited {
   -webkit-transition: 0.25s;
   transition: 0.25s;
+  color: var(--aliceblue);
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.125rem;
 }
 
 .links:hover, .links:active {
