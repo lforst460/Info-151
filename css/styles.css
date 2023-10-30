@@ -6,57 +6,12 @@ html {
   font-size: 100%;
 }
 
-ul {
-  list-style-type: none;
-}
-
-li{
-  padding: 5px;
-}
-
-
 
 /* ---------------- Media Queries ---------------- */
 /* =============
     Variables
 ============= */
-:root {
-  --black: #000000;
-  --white: #ffffff;
-  --darkviolet: #9400D3;
-  --aliceblue: #F0F8FF;
-  --dodgerblue: #1E90FF;
-  --midnightblue: #191970;
-}
 
-body{
-  background-color: var(--black);
-  color: var(--aliceblue);
-  font-family: 'Open Sans', sans-serif;
-}
-
-#socials{
-  width: 150px;
-  padding: 50px;
-}
-
-.section{
-  display: inline-block;
-  padding: 30px;
-}
-
-.titleblue{
-  color: var(--dodgerblue);
-}
-
-.bluetext{
-  background-color: var(--dodgerblue);
-  color: var(--aliceblue);
-}
-
-.nobullet{
-  list-style-type: none;
-}
 
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 /* Document
