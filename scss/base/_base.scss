@@ -25,7 +25,7 @@ body{
 .section{
     display: inline-block;
     padding: 30px;
-    font-size: rem(30);
+    font-size: rem(22);
   }
   
 .titleblue{
@@ -53,6 +53,7 @@ li{
 
 .titleblue{
     font-weight: 700;
+    font-size: rem-calc(30);
 }
 
 .nobullet{

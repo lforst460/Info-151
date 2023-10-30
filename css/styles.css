@@ -354,7 +354,7 @@ body {
 .section {
   display: inline-block;
   padding: 30px;
-  font-size: 30;
+  font-size: 22;
 }
 
 .titleblue {
@@ -380,6 +380,7 @@ li {
 
 .titleblue {
   font-weight: 700;
+  font-size: 1.875rem;
 }
 
 .nobullet {
