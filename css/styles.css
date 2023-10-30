@@ -354,6 +354,7 @@ body {
 .section {
   display: inline-block;
   padding: 30px;
+  font-size: 30;
 }
 
 .titleblue {
