@@ -352,6 +352,10 @@ body {
   padding: 50px;
 }
 
+#iconlist {
+  padding: 0px;
+}
+
 .icons {
   display: inline;
   padding: 1px;
