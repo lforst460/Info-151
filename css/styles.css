@@ -344,6 +344,7 @@ body {
   background-color: var(--darkviolet);
   color: var(--aliceblue);
   font-size: 1.125rem;
+  font-family: "Open Sans", sans-serif;
 }
 
 #desc {
