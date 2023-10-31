@@ -10,9 +10,13 @@ html {
 /* =============
     Variables
 ============= */
-:root {
+root {
   --black: #000000;
   --white: #ffffff;
+  --darkviolet: #9400D3;
+  --aliceblue: #F0F8FF;
+  --dodgerblue: #1E90FF;
+  --midnightblue: #191970;
 }
 
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
