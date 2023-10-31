@@ -337,7 +337,7 @@ template {
 ============= */
 body {
   font-size: 1.125rem;
-  font-style: "Open Sans", sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 
 .product {
