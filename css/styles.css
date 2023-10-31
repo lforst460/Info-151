@@ -385,6 +385,10 @@ body {
   list-style-type: none;
 }
 
+.center {
+  text-align: center;
+}
+
 form {
   margin: 5px;
 }
