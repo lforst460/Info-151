@@ -32,7 +32,8 @@ body{
 }
   
 .section{
-    display: inline-block;
+    display: flex;
+    justify-content: space-evenly;
     padding: 20px;
     font-size: rem-calc(22);
     width: 15%;
