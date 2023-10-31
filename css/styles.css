@@ -410,6 +410,20 @@ nav {
   padding: 30px;
 }
 
+.links:link, .links:visited {
+  -webkit-transition: 0.25s;
+  transition: 0.25s;
+  color: var(--aliceblue);
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.125rem;
+  text-decoration: none;
+}
+
+.links:hover, .links:active {
+  color: var(--dodgerblue);
+  text-decoration: none;
+}
+
 /* =============
     Typography
 ============= */

@@ -70,3 +70,16 @@
     height: 400px;
     padding: 30px;
   }
+
+  .links:link, .links:visited{
+    transition: .25s;
+    color: var(--aliceblue);
+    font-family: 'Open Sans', sans-serif;
+    font-size: rem-calc(18);
+    text-decoration: none;
+  }
+  
+  .links:hover, .links:active{
+    color: var(--dodgerblue);
+    text-decoration: none;
+  }
