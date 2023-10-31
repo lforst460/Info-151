@@ -347,6 +347,20 @@ body {
   font-family: "Open Sans", sans-serif;
 }
 
+button {
+  background-color: var(--dodgerblue);
+  color: var(--aliceblue);
+}
+
+nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
 #desc {
   padding: 30px;
   width: 40%;
@@ -359,6 +373,7 @@ body {
   font-size: 1.875rem;
   font-weight: 700;
   color: var(--dodgerblue);
+  width: 40%;
 }
 
 #navlist {
@@ -369,6 +384,7 @@ body {
   display: inline;
   padding: 5px;
   margin: 5px;
+  width: 10%;
 }
 
 #heropic {
