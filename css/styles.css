@@ -374,6 +374,15 @@ h1 {
   padding: 0px;
 }
 
+.top {
+  height: 50%;
+  background-color: var(--darkviolet);
+}
+
+.bottom {
+  height: 50%;
+}
+
 .purplebackground {
   background-color: var(--darkviolet);
   color: var(--white);
