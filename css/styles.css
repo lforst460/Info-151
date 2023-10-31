@@ -361,10 +361,21 @@ nav {
           justify-content: space-evenly;
 }
 
+#middle {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
 #desc {
   padding: 30px;
   width: 40%;
-  display: inline-block;
 }
 
 #navtitle {
@@ -374,6 +385,7 @@ nav {
   font-weight: 700;
   color: var(--dodgerblue);
   width: 40%;
+  text-align: center;
 }
 
 #navlist {
