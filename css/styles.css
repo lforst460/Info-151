@@ -407,6 +407,21 @@ button {
   padding: 7px;
 }
 
+.buttons:link, .buttons:visited {
+  -webkit-transition: 0.25s;
+  transition: 0.25s;
+  color: var(--aliceblue);
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.125rem;
+  text-decoration: none;
+}
+
+.buttons:hover, .buttons:active {
+  color: var(--dodgerblue);
+  background-color: var(--darkviolet);
+  text-decoration: none;
+}
+
 /* =============
     Typography
 ============= */

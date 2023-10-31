@@ -64,3 +64,17 @@ h1{
     margin: 5px;
     padding: 7px;
   }
+
+  .buttons:link, .buttons:visited{
+    transition: .25s;
+    color: var(--aliceblue);
+    font-family: 'Open Sans', sans-serif;
+    font-size: rem-calc(18);
+    text-decoration: none;
+  }
+  
+  .buttons:hover, .buttons:active{
+    color: var(--dodgerblue);
+    background-color: var(--darkviolet);
+    text-decoration: none;
+  }
