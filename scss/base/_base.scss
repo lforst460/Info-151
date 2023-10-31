@@ -2,4 +2,52 @@
     Base
 ============= */
 
-
+:root {
+    --black: #000000;
+    --white: #ffffff;
+    --darkviolet: #9400D3;
+    --aliceblue: #F0F8FF;
+    --dodgerblue: #1E90FF;
+    --midnightblue: #191970;
+  }
+  
+  body{
+    background-color: var(--darkviolet);
+    color: var(--aliceblue);
+    font-size: rem-calc(18);
+  }
+  
+  #desc{
+    padding: 30px;
+    width: 40%;
+    display: inline-block
+  }
+  
+  #navtitle{
+    display: inline;
+    margin: 10px;
+    font-size: rem-calc(30);
+    font-weight: 700;
+    color: var(--dodgerblue);
+  }
+  
+  #navlist{
+    list-style-type: none;
+  }
+  
+  #navlist li{
+    display:inline;
+    padding: 5px;
+    margin: 5px;
+  }
+  
+  #heropic{
+    width: 100%;
+  }
+  
+  #imagediv{
+    display:inline-block;
+    width: 40%;
+    height: 400px;
+    padding: 30px;
+  }
