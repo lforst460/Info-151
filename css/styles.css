@@ -363,6 +363,7 @@ body {
 .section {
   padding: 20px;
   font-size: 1.375rem;
+  width: 20%;
 }
 
 .center {
