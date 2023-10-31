@@ -340,14 +340,26 @@ body {
   font-family: "Open Sans", sans-serif;
 }
 
+#plandesc {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
 .product {
-  display: inline-block;
   border: solid;
 }
 
-.plans {
-  display: inline;
-  margin: 5px;
+#plans {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
 }
 
 .nopadding {

@@ -7,14 +7,18 @@ body{
     font-family: 'Open Sans', sans-serif;;
 }
 
+#plandesc{
+    display: flex;
+    justify-content: space-evenly;
+}
+
 .product{
-    display: inline-block;
     border: solid;
   }
   
-  .plans{
-    display: inline;
-    margin: 5px;
+  #plans{
+    display: flex;
+    justify-content: space-evenly;
   }
   
   .nopadding{
