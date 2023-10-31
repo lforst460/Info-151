@@ -331,6 +331,48 @@ template {
 /* =============
     Base
 ============= */
+.product {
+  display: inline-block;
+  border: solid;
+}
+
+.plans {
+  display: inline;
+  margin: 5px;
+}
+
+.nopadding {
+  margin: 0px;
+  padding: 0px;
+}
+
+.purplebackground {
+  background-color: var(--darkviolet);
+  color: var(--white);
+}
+
+#startupdiv {
+  padding: 50px 30px;
+}
+
+#classicdiv {
+  padding: 50px 30px;
+  margin: 10px;
+}
+
+#premiumdiv {
+  padding: 50px 30px;
+}
+
+.nostyle {
+  list-style-type: none;
+}
+
+button {
+  color: var(--aliceblue);
+  background-color: var(--dodgerblue);
+}
+
 /* =============
     Typography
 ============= */
