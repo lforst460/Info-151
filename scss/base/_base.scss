@@ -32,11 +32,14 @@ body{
 }
   
 .section{
-    display: flex;
-    justify-content: space-evenly;
     padding: 20px;
     font-size: rem-calc(22);
   }
+
+.center{
+  display: flex;
+  justify-content: space-evenly;
+}
   
 .titleblue{
     color: var(--dodgerblue);
