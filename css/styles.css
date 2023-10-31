@@ -335,6 +335,11 @@ template {
 /* =============
     Base
 ============= */
+body {
+  font-size: 1.125rem;
+  font-style: "Open Sans", sans-serif;
+}
+
 .product {
   display: inline-block;
   border: solid;
