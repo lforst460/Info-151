@@ -59,6 +59,11 @@
     margin: 5px;
     width: 10%;
   }
+
+  #nav-container{
+    display: grid;
+    grid-template-columns: 40% 10% 10% 10% 10% 10% 10% auto;
+  }
   
   #heropic{
     width: 100%;

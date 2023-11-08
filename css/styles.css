@@ -399,6 +399,13 @@ nav {
   width: 10%;
 }
 
+#nav-container {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 40% 10% 10% 10% 10% 10% 10% auto;
+  grid-template-columns: 40% 10% 10% 10% 10% 10% 10% auto;
+}
+
 #heropic {
   width: 100%;
 }
