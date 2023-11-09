@@ -17,7 +17,8 @@ main{
   grid-template-rows: repeat(2);
   grid-template-areas: 
   ". topcontent ."
-   "img content ."
+   ". content ."
+   "img . ."
 }
 
 #plandesc{

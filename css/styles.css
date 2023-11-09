@@ -351,7 +351,7 @@ main {
   grid-template-columns: auto 65vw auto;
   -ms-grid-rows: ()[2];
   grid-template-rows: repeat(2);
-      grid-template-areas: ". topcontent ." "img content .";
+      grid-template-areas: ". topcontent ." ". content ." "img . .";
 }
 
 #plandesc {
@@ -373,7 +373,7 @@ main {
 }
 
 #validator {
-  -ms-grid-row: 2;
+  -ms-grid-row: 3;
   -ms-grid-column: 1;
   display: -ms-grid;
   display: grid;
