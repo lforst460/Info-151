@@ -13,11 +13,11 @@ h1{
 
 main{
   grid-template-columns: auto 700px auto;
-  grid-template-areas: ". content .";
+  grid-template-areas: ". plandesc .";
 }
 
 #plandesc{
-    grid-area: content;
+    grid-area: plandesc;
     display: grid;
     grid-template-columns: 33% 33% 33%;
 }
