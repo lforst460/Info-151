@@ -369,11 +369,6 @@ nav {
       grid-template-areas: "desc" "imagediv";
 }
 
-#desc {
-  padding: 30px;
-  width: 40%;
-}
-
 #navtitle {
   display: inline;
   margin: 10px;
@@ -403,13 +398,6 @@ nav {
 
 #heropic {
   width: 100%;
-}
-
-#imagediv {
-  display: inline-block;
-  width: 40%;
-  height: 400px;
-  padding: 30px;
 }
 
 .links:link, .links:visited {
