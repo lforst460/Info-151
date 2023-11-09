@@ -384,7 +384,6 @@ nav {
   font-size: 1.875rem;
   font-weight: 700;
   color: var(--dodgerblue);
-  width: 40%;
   text-align: center;
 }
 
@@ -396,7 +395,6 @@ nav {
   display: inline;
   padding: 5px;
   margin: 5px;
-  width: 10%;
 }
 
 #nav-container {
