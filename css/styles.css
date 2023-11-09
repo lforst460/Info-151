@@ -404,6 +404,7 @@ nav {
   display: grid;
   -ms-grid-columns: 40% 60% auto;
   grid-template-columns: 40% 60% auto;
+  text-align: center;
 }
 
 #heropic {
