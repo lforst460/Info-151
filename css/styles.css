@@ -344,9 +344,9 @@ h1 {
   text-align: center;
 }
 
-#main {
-  -ms-grid-columns: auto 60vw auto;
-  grid-template-columns: auto 60vw auto;
+main {
+  -ms-grid-columns: auto 700px auto;
+  grid-template-columns: auto 700px auto;
       grid-template-areas: ". content .";
 }
 

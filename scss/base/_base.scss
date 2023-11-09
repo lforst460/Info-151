@@ -11,8 +11,8 @@ h1{
     text-align: center;
 }
 
-#main{
-  grid-template-columns: auto 60vw auto;
+main{
+  grid-template-columns: auto 700px auto;
   grid-template-areas: ". content .";
 }
 
