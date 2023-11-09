@@ -402,8 +402,8 @@ nav {
 #nav-container {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: 40% 10% 10% 10% 10% 10% 10% auto;
-  grid-template-columns: 40% 10% 10% 10% 10% 10% 10% auto;
+  -ms-grid-columns: 40% 60% auto;
+  grid-template-columns: 40% 60% auto;
 }
 
 #heropic {
