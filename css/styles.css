@@ -362,6 +362,14 @@ main {
   grid-template-columns: 33% 33% 33%;
 }
 
+#options {
+  -ms-grid-row: 1;
+  -ms-grid-column: 2;
+  display: -ms-grid;
+  display: grid;
+  grid-area: content;
+}
+
 .product {
   border: solid;
 }

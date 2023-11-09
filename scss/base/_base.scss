@@ -23,6 +23,11 @@ main{
     grid-template-columns: 33% 33% 33%;
 }
 
+#options{
+  display: grid;
+  grid-area:content;
+}
+
 .product{
     border: solid;
   }
