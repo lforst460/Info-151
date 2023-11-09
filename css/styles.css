@@ -349,9 +349,9 @@ main {
   display: grid;
   -ms-grid-columns: auto 60vw auto;
   grid-template-columns: auto 60vw auto;
-  -ms-grid-rows: ()[2];
-  grid-template-rows: repeat(2);
-      grid-template-areas: ". topcontent ." ". content .";
+  -ms-grid-rows: ()[3];
+  grid-template-rows: repeat(3);
+      grid-template-areas: ". topcontent ." ". content ." "img . .";
 }
 
 #plandesc {
@@ -360,8 +360,8 @@ main {
   grid-area: content;
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: 27% 27% 27%;
-  grid-template-columns: 27% 27% 27%;
+  -ms-grid-columns: 33% 33% 33%;
+  grid-template-columns: 33% 33% 33%;
 }
 
 #options {
@@ -372,8 +372,17 @@ main {
   grid-area: topcontent;
 }
 
+#validator {
+  -ms-grid-row: 3;
+  -ms-grid-column: 1;
+  display: -ms-grid;
+  display: grid;
+  grid-area: img;
+}
+
 .product {
   border: solid;
+  margin: 20px;
 }
 
 #plans {

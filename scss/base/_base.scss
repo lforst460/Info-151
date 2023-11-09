@@ -14,16 +14,17 @@ h1{
 main{
   display: grid;
   grid-template-columns: auto 60vw auto;
-  grid-template-rows: repeat(2);
+  grid-template-rows: repeat(3);
   grid-template-areas: 
   ". topcontent ."
-   ". content .";
+   ". content ."
+   "img . ."
 }
 
 #plandesc{
     grid-area: content;
     display: grid;
-    grid-template-columns: 27% 27% 27%;
+    grid-template-columns: 33% 33% 33%;
 }
 
 #options{
@@ -31,8 +32,14 @@ main{
   grid-area: topcontent;
 }
 
+#validator{
+  display: grid;
+  grid-area: img;
+}
+
 .product{
     border: solid;
+    margin: 20px;
   }
   
   #plans{
