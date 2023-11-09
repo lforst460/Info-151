@@ -334,10 +334,10 @@ template {
 :root {
   --black: #000000;
   --white: #ffffff;
-  --darkviolet: #9400D3;
+  --darkviolet: #461096;
   --aliceblue: #F0F8FF;
-  --dodgerblue: #1E90FF;
-  --midnightblue: #191970;
+  --dodgerblue: #42B4EE;
+  --midnightblue: #000000;
 }
 
 body {
@@ -366,13 +366,12 @@ body {
   width: 20%;
 }
 
-.center {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
+#center {
+  -ms-grid-row: 1;
+  -ms-grid-column: 2;
+  display: -ms-grid;
+  display: grid;
+  grid-area: content;
 }
 
 .titleblue {
@@ -390,6 +389,14 @@ body {
 
 form {
   margin: 5px;
+}
+
+footer {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto 90vw auto;
+  grid-template-columns: auto 90vw auto;
+      grid-template-areas: ". content .";
 }
 
 ul {

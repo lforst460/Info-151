@@ -37,9 +37,9 @@ body{
     width: 20%;
   }
 
-.center{
-  display: flex;
-  justify-content: space-evenly;
+#center{
+  display: grid;
+  grid-area: content;
 }
   
 .titleblue{
@@ -58,6 +58,12 @@ body{
 
 form{
   margin: 5px;
+}
+
+footer{
+  display: grid;
+  grid-template-columns: auto 90vw auto;
+  grid-template-areas: ". content ."
 }
 
 ul {
