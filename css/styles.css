@@ -361,7 +361,15 @@ nav {
           justify-content: space-evenly;
 }
 
+#main {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto 80vm auto;
+  grid-template-columns: auto 80vm auto;
+}
+
 #middle {
+  grid-area: content;
   padding: 40px;
   display: -ms-grid;
   display: grid;
@@ -403,6 +411,7 @@ nav {
   -ms-grid-columns: 40% 60% auto;
   grid-template-columns: 40% 60% auto;
   text-align: center;
+  grid-area: content;
 }
 
 #heropic {

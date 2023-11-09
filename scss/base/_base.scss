@@ -28,7 +28,13 @@
     justify-content: space-evenly;
   }
 
+  #main{
+    display: grid;
+    grid-template-columns: auto 80vm auto;
+  }
+
   #middle{
+    grid-area: content;
     padding: 40px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -68,6 +74,7 @@
     display: grid;
     grid-template-columns: 40% 60% auto;
     text-align: center;
+    grid-area: content;
   }
   
   #heropic{
