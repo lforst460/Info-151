@@ -391,8 +391,8 @@ form {
 footer {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: auto 60vw auto;
-  grid-template-columns: auto 60vw auto;
+  -ms-grid-columns: auto 70vw auto;
+  grid-template-columns: auto 70vw auto;
       grid-template-areas: ". content .";
 }
 
