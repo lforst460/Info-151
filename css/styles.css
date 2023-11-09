@@ -349,9 +349,9 @@ main {
   display: grid;
   -ms-grid-columns: auto 65vw auto;
   grid-template-columns: auto 65vw auto;
-  -ms-grid-rows: ()[3];
-  grid-template-rows: repeat(3);
-      grid-template-areas: ". topcontent ." ". content ." "img . .";
+  -ms-grid-rows: ()[2];
+  grid-template-rows: repeat(2);
+      grid-template-areas: ". topcontent ." "img content .";
 }
 
 #plandesc {
@@ -373,7 +373,7 @@ main {
 }
 
 #validator {
-  -ms-grid-row: 3;
+  -ms-grid-row: 2;
   -ms-grid-column: 1;
   display: -ms-grid;
   display: grid;
@@ -383,6 +383,7 @@ main {
 .product {
   border: solid;
   margin: 20px;
+  text-align: center;
 }
 
 #plans {

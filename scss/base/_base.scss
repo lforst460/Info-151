@@ -14,11 +14,10 @@ h1{
 main{
   display: grid;
   grid-template-columns: auto 65vw auto;
-  grid-template-rows: repeat(3);
+  grid-template-rows: repeat(2);
   grid-template-areas: 
   ". topcontent ."
-   ". content ."
-   "img . ."
+   "img content ."
 }
 
 #plandesc{
@@ -40,6 +39,7 @@ main{
 .product{
     border: solid;
     margin: 20px;
+    text-align: center;
   }
   
   #plans{
