@@ -360,8 +360,8 @@ main {
   grid-area: content;
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: 33% 33% 33%;
-  grid-template-columns: 33% 33% 33%;
+  -ms-grid-columns: 27% 27% 27%;
+  grid-template-columns: 27% 27% 27%;
 }
 
 #options {
