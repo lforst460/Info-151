@@ -361,9 +361,7 @@ body {
 }
 
 .section {
-  padding: 20px;
   font-size: 1.375rem;
-  width: 20%;
 }
 
 #center {
@@ -372,6 +370,8 @@ body {
   display: -ms-grid;
   display: grid;
   grid-area: content;
+  -ms-grid-columns: 25% 25% 25% 25%;
+  grid-template-columns: 25% 25% 25% 25%;
 }
 
 .titleblue {

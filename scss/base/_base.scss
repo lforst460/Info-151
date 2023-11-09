@@ -32,14 +32,13 @@ body{
 }
   
 .section{
-    padding: 20px;
     font-size: rem-calc(22);
-    width: 20%;
   }
 
 #center{
   display: grid;
   grid-area: content;
+  grid-template-columns: 25% 25% 25% 25%;
 }
   
 .titleblue{
