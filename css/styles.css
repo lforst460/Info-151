@@ -345,15 +345,17 @@ h1 {
 }
 
 main {
-  -ms-grid-columns: auto 700px auto;
-  grid-template-columns: auto 700px auto;
-      grid-template-areas: ". plandesc .";
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto 60vw auto;
+  grid-template-columns: auto 60vw auto;
+      grid-template-areas: ". content .";
 }
 
 #plandesc {
   -ms-grid-row: 1;
   -ms-grid-column: 2;
-  grid-area: plandesc;
+  grid-area: content;
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: 33% 33% 33%;
