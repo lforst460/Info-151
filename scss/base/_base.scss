@@ -11,13 +11,20 @@ h1{
     text-align: center;
 }
 
+main{
+  grid-template-columns: auto 60vw auto;
+  grid-template-areas: ". content .";
+}
+
 #plandesc{
+    grid-area: content;
     display: grid;
     grid-template-columns: 33% 33% 33%;
 }
 
 .product{
     border: solid;
+    padding: 10px;
   }
   
   #plans{
