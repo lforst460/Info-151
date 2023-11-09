@@ -14,7 +14,10 @@ h1{
 main{
   display: grid;
   grid-template-columns: auto 60vw auto;
-  grid-template-areas: ". content .";
+  grid-template-rows: repeat(2);
+  grid-template-areas: 
+  ". topcontent ."
+   ". content .";
 }
 
 #plandesc{
@@ -25,7 +28,7 @@ main{
 
 #options{
   display: grid;
-  grid-area:content;
+  grid-area: topcontent;
 }
 
 .product{
