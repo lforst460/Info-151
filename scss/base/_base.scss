@@ -13,7 +13,7 @@ h1{
 
 main{
   display: grid;
-  grid-template-columns: auto 60vw auto;
+  grid-template-columns: auto 65vw auto;
   grid-template-rows: repeat(3);
   grid-template-areas: 
   ". topcontent ."
@@ -43,9 +43,8 @@ main{
   }
   
   #plans{
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
   }
   
   .nopadding{
