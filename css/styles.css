@@ -362,12 +362,20 @@ nav {
 }
 
 #middle {
-  padding: 20px;
+  padding: 40px;
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: (1fr)[2];
   grid-template-columns: repeat(2, 1fr);
       grid-template-areas: "desc" "imagediv";
+}
+
+#desc {
+  padding: 10px;
+}
+
+#imagediv {
+  padding: 10px;
 }
 
 #navtitle {

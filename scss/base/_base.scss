@@ -29,12 +29,20 @@
   }
 
   #middle{
-    padding: 20px;
+    padding: 40px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-areas: 
     "desc" "imagediv"
-    }
+  }
+
+  #desc{
+    padding:10px;
+  }
+
+  #imagediv{
+    padding:10px;
+  }
   
   
   #navtitle{
