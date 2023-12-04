@@ -5,70 +5,55 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="css/styles.css">
-    <title>Plans</title>
+    <title>JQuery</title>
 
     <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
     <link rel="manifest" href="site.webmanifest">
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
 
 </head>
 
 <body>
-    <main>
-        <script src="js/scripts-dist.js"></script>
-        <div id="options">
-            <h1>Choose your best pricing plan</h1>
-            <div id="plans">
-                <h2>Added for Monthly</h2>
-                <form><input type="radio" name="plan"><input type="radio" name="plan"></form>
-                <h2> Yearly </h2>
-            </div>
-        </div>
-        <div id="plandesc">
-            <ul id="startupdiv" class="product">
-                <li class="nostyle"><h2>Start-up</h2></li>
-                <li class="nostyle"><h1>$10/mo</h1></li>
-                <li>Easily Customizable</li>
-                <li>Commercial License</li>
-                <li>Single-user license</li>
-                <li>Hotline support 24/7</li>
-                <li class="nostyle"><button class="buttons">Try This Package</button></li>
-            </ul>
-            <div id="classicdiv" class="product">
-                <ul class="top">
-                <li class="nostyle purplebackground" id="classic"><h2>Classic</h2></li>
-                <li class="nostyle purplebackground"><h1>$30/mo</h1></li>
-                </ul>
-                <ul class="bottom">
-                <li>Easily Customizable</li>
-                <li>Commercial License</li>
-                <li>5 user license</li>
-                <li>Hotline support 24/7</li>
-                <li class="nostyle"><button class="buttons">Try This Package</button></li>
-                </ul>
-            </div>
-            <ul id="premiumdiv" class="product">
-                <li class="nostyle"><h2>Premium</h2></li>
-                <li class="nostyle"><h1>$40/mo</h1></li>
-                <li>Easily Customizable</li>
-                <li>Commercial License</li>
-                <li>10 user license</li>
-                <li>Hotline support 24/7</li>
-                <li class="nostyle"><button class="buttons">Try This Package</button></li>
-            </ul>
-        </div>    
-
-        <div id="validator">
-            <a href=" https://validator.w3.org/nu/?doc=https://cerulean-sunshine-1f1d36.netlify.app/" target="_blank">
-                <img src="html-logo.svg" alt="Valid HTML 5">
-            </a>
-        </div>
-    </main>
+    <div id="content">
+        <h1>Quiz</h1>
+        <table>
+          <tr>
+            <th>One</th>
+            <th>Two</th>
+            <th>Three</th>
+          </tr>
+          <tr>
+            <td>4</td>
+            <td>6</td>
+            <td>9</td>
+          </tr>
+          <tr>
+            <td>+</td>
+            <td>-</td>
+            <td>*</td>
+          </tr>
+          <tr>
+            <td>5</td>
+            <td>2</td>
+            <td>3</td>
+          </tr>
+          <tr>
+            <td><input type="text" id="one"></td>
+            <td><input type="text" id="two"></td>
+            <td><input type="text" id="three"></td>
+          </tr>
+          <tr>
+            <td id="answerone"></td>
+            <td id="answertwo"></td>
+            <td id="answerthree"></td>
+          </tr>
+          
+        </table>
+        <button id="answers">Check Answers</button>
+      </div>      
 </body>
 
 </html>
