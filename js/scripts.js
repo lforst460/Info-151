@@ -1,4 +1,4 @@
-document.getElementById("answers").onclick = check_answers
+document.getElementById("answers").onclick = check_answers()
 
 
 function check_answers(){
